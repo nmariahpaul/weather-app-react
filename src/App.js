@@ -7,7 +7,12 @@ function App() {
       <footer>
         <p>
           This project was coded by Mariah Paul, and is{" "}
-          <a href="" target="_blank" rel="noreferrer" className="github-link">
+          <a
+            href="https://github.com/nmariahpaul/weather-app-react"
+            target="_blank"
+            rel="noreferrer"
+            className="github-link"
+          >
             open-sourced on Github
           </a>
         </p>
