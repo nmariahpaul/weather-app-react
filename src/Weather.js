@@ -18,7 +18,7 @@ export default function Weather() {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-secondary"
+                className="btn btn-secondary w-100"
               />
             </div>
           </div>
@@ -26,7 +26,7 @@ export default function Weather() {
 
         <h1>New York</h1>
         <ul>
-          <li>Saturday 11:00p.m.</li>
+          <li>Saturday 11:00</li>
           <li>Clear</li>
         </ul>
         <div className="row">
@@ -35,7 +35,10 @@ export default function Weather() {
               src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="sunny"
             />
-            11°C
+            <span className="temperature">
+              <strong>11</strong>
+            </span>
+            <span className="units">°C</span>
           </div>
           <div className="col-6">
             <ul>
