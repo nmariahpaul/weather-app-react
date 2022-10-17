@@ -13,10 +13,7 @@ export default function WeatherInfo(props) {
       </ul>
       <div className="row">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-            alt={props.data.description}
-          />
+          <img src={props.data.icon} alt={props.data.description} />
           <span className="temperature">
             <strong>{Math.round(props.data.temperature)}</strong>
           </span>
