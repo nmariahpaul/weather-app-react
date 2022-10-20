@@ -61,6 +61,7 @@ export default function Weather(props) {
           </form>
           <WeatherInfo data={weatherData} />
           <WeatherForecast
+            city={weatherData.city}
             icon={weatherData.icon}
             alt={weatherData.description}
           />
