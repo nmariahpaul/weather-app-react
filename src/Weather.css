@@ -49,3 +49,7 @@
   color: #000;
   font-size: 16px;
 }
+
+.WeatherIcon img {
+  margin-right: -5px;
+}
