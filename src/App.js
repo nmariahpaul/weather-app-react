@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <h2>React Weather App</h2>
         <Weather defaultCity="New York" />
         <footer>
           <p>
